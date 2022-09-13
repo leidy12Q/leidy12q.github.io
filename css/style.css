@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+
+header{
+    background: url(../img/);
+}
+.bg-portafolio{
+    background: white;
+}
+
+.bg-portafolio ul li a{
+    color: black;
+}
+
+.bg-portafolio ul li a:hover{
+    color: wheat;
+}
+
+#hero{
+    padding-bottom: 80px;
+    background-color: #E4DCD7;
+}
+.textoinfo{
+    position: relative;
+}
+
+.textoinfo{
+    background-color: #FFFF;
+    border-radius: 23px;  
+    text-align: center;
+    padding-top: 26%;
+    top: 150px;
+}
+.textoinfo h1{
+    color: black;
+    font-size: 30px;  
+    font-family: 'Arimo', sans-serif;
+}
+.textoinfo a{
+    text-decoration: none;  
+    color: black;
+    background-color: #DAD1CC;
+    padding: 5px 20px;
+    
+}
+.textoinfo::after{
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 200px;
+    background: url(../img/compartir.png)no-repeat;
+    top: 200px;
+    left: 70px;
+    z-index: 999;
+}
+
+main{
+    background: white;
+
+}
+
+.texto{
+    font-family: 'Playfair Display', serif;
+    border-radius: 23px;  
+    text-align: center;
+    padding-top: 24%;  
+    font-style: italic;
+}
+
+
+.margen-presentacion{
+    margin-bottom: 60px;
+}
+
+.margen-presentacion .texto{
+    padding: 40px 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+
+.titulo h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 51px;
+    padding-top: 52px;
+}
+
+
+
+#Presentacion .ramo{
+    text-align: center;
+}
+
+#Presentacion .señalar {
+    text-align: center;
+    top: 10;
+    right: 0px;
+}
+
+
+#PerfilProfesional{
+    background: url(../img/diploma.png)no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#PerfilProfesional .flecha{
+    text-align: center;
+}
+.estudio1 h1{
+    font-family: 'Arizonia', cursive;
+    font-style: italic;
+    padding-top: 30px;
+}
+
+
+/* pseudoelemento, empezamos por agregar  la propiedad position: relative al 
+contenedor padre*/
+
+
+#Habilidades .ramito{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cafe h1{
+    color: #5B3720;
+    font-family: 'Antic Didone', serif;
+    
+}
+
+.habili .img1{
+    float: left;
+    padding-top: 80px;
+}
+
+.img1 h4{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.habili .img2{
+    float: right;
+    padding-top: 80px;
+}
+
+.img2 h4{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.lenguaje h2{
+    border-radius: 23px;  
+    text-align: center;
+    padding-top: 85%;
+    font-family: 'Playfair Display', serif;  
+
+}
+
+#Habilidades .logon{
+    position: relative;
+}
+
+.logon ::after{
+        position:absolute;
+        content: "";
+        width: 250px;
+        height: 200px;
+        background: url(../img/logon.png)no-repeat;
+        top: 10px;
+        right: 0px;
+        z-index: 999;
+}
+
+.triangulo{
+    padding-top: 40%; 
+}
+
+#Contacto {
+    background-color: #DAD1CC;
+}
+
+.gracias h2{
+    text-align: center;
+    color: #5B3720;
+    font-family: 'Playfair Display', serif; 
+    padding-top: 10px;
+}
+
+.trabajar h3{
+    text-align: center;
+    color: #000000;
+    font-family: 'Playfair Display', serif; 
+    padding-top: 40px;
+}
+
+
+.flecha1{
+    float: left;
+    width: 10px;
+}
+
+.flecha2{
+    float: right;
+
+}
+
+footer{
+    position: relative;
+    
+}
+
+.correo{
+    float: right;
+    padding-top: 20px ;
+}
+
+.face{
+    float: left;
+    padding-top: 20px ;
+
+}
+
+.insta{
+    text-align: center;
+    padding-top: 20px ;
+
+}
+
+header{
+    position: relative;
+    margin: 20px;
+
+}
+
+/* Al selector padre le agregamos ::after */
+header::after{
+/* El pseudoelemento siempre debe tener una posicion absoluta, un content "";
+dimensiones, fondo y posiciones */
+position: absolute;
+content: "";
+width: 250px;
+height: 200px;
+background: url(../img/Star\ 1.png)no-repeat;
+top: 10px;
+left:0px ;
+}
+
+header::before{
+    /* El pseudoelemento siempre debe tener una posicion absoluta, un content "";
+    dimensiones, fondo y posiciones */
+    position: absolute;
+    content: "";
+    width: 96px;
+    height: 195px;
+    background: url(../img/Star2.png)no-repeat;
+    top: 109px;
+    left: 17px;
+    z-index: 999;
+}
+
+#whatsapp{
+    position: fixed;
+    right: 10px;
+    top: 90%;
+    z-index: 999;
+}
